@@ -28,7 +28,7 @@ const App = () => {
             onAddToCart={() => handleAddToCart({ name: 'Product 1', price: '$10' })}
             isAddedToCart={cartItems.some((item) => item.name === 'Product 1')}
           />
-          <br></br>
+          
           <Product
             name="Product 2"
             price="$20"
